@@ -1,0 +1,23 @@
+[
+   {
+    "name": "simu",
+    "email": "simu@gmail.com",
+    "password": "password",
+    "phone": "+919341213297",
+    "address": "INDIA"
+  },
+ {
+    "name": "swaraj",
+    "email": "swaraj@gmail.com",
+    "password": "password",
+    "phone": "+919341213295",
+    "address": "INDIA"
+  },
+   {
+    "name": "yuvraj",
+    "email": "yuvraj@gmail.com",
+    "password": "password",
+    "phone": "+919341213296",
+    "address": "USA"
+  }
+]

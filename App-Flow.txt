@@ -1,0 +1,38 @@
+Project Overview:
+	Hosting: AWS Lambda
+	ImageUpload: AWS S3 Bucket
+	Cashing: Redis
+	Load Balancing: Nginx Load Balancer
+	Reverse Proxy: Nginx Reverse Proxy
+
+
+Seller Diagram 
+		< Store >
+		--> [x] Create Store
+		--> [x] Get All Stores
+		--> [x] Get Single Store (Get All Products created by the shop)
+		--> [x] Get earning of single Store
+		--> [x] Update Store
+		--> [x] Delete Store
+
+		< Product >
+		--> [ ] Create Product from Store
+		--> [ ] Get All Products from single Stores
+		--> [ ] Get All Products of all Store (get products of seller)	
+		--> [ ] Get All nearby Store of seller
+		--> [ ] Update Products created from Store ( isAvailable, inStock )
+		--> [ ] Delete Product from Store
+
+	< Seller Profile >
+	--> [x] List Stores of seller
+	--> [x] Create Seller Profile
+	--> [x] Get Seller Profile (All Shops, total revenue, total products, analysis)
+	--> [ ] Get All Products from All Store
+	--> [ ] Get All Products sold from All Store
+	--> [ ] Request Money Transfer to account - Manual
+	--> [ ] Get Total earnings from all Stores
+	--> [x] Update seller profile
+	--> [x] Delete Seller profile ( delete all Stores createdBy seller )
+
+
+Seller --> [ ] Create Store --> [ ] Go thorough security checks --> [ ] List Product
